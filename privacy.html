@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Panel Privacy Policy</title>
+  <meta name="description" content="Privacy policy for the locally running Home Panel application.">
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: #1d1d1f;
+      background: #f5f5f7;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    main {
+      width: min(800px, calc(100% - 40px));
+      margin: 60px auto;
+    }
+    article {
+      background: #fff;
+      border: 1px solid #e3e3e7;
+      border-radius: 24px;
+      padding: clamp(28px, 6vw, 56px);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, .07);
+    }
+    h1 {
+      margin: 10px 0 8px;
+      font-size: clamp(38px, 7vw, 58px);
+      letter-spacing: -.045em;
+      line-height: 1.05;
+    }
+    h2 {
+      margin: 36px 0 10px;
+      font-size: 22px;
+      letter-spacing: -.02em;
+    }
+    p, li {
+      color: #424245;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+    .date { color: #6e6e73; }
+    a { color: #2457d6; }
+    nav { margin-bottom: 24px; }
+    footer {
+      padding: 22px 4px;
+      color: #6e6e73;
+      font-size: 14px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="index.html">← Home Panel</a></nav>
+
+    <article>
+      <h1>Privacy Policy</h1>
+      <p class="date">Effective 6 October 2026</p>
+
+      <p>
+        Home Panel is personal-use software that runs locally on the user’s own
+        Windows device. This policy explains how its optional Google Calendar
+        connection handles information.
+      </p>
+
+      <h2>Information accessed</h2>
+      <p>
+        If the user chooses to connect Google Calendar, Home Panel requests
+        read-only Calendar access. It may retrieve calendar names, event titles,
+        event dates and times, and display colours for calendars selected by the
+        user.
+      </p>
+
+      <h2>How information is used</h2>
+      <p>
+        Google Calendar information is used only to show upcoming events on the
+        user’s local Home Panel dashboard. Home Panel cannot create, modify, or
+        delete Google Calendar events.
+      </p>
+
+      <h2>Local storage</h2>
+      <p>
+        OAuth authorization tokens and cached calendar display data are stored
+        locally within the user’s Windows application-data folder. They are not
+        uploaded to the developer. Cached information allows the dashboard to
+        remain useful temporarily when the device is offline.
+      </p>
+
+      <h2>Sharing and advertising</h2>
+      <p>
+        Home Panel does not sell, rent, share, or use Google user data for
+        advertising. It has no analytics, telemetry, advertising network, cloud
+        database, or remote administration service.
+      </p>
+
+      <h2>Retention and deletion</h2>
+      <p>
+        The user can disconnect Google from Home Panel at any time, which removes
+        the locally stored authorization token and stops future Google Calendar
+        access. The user can remove all remaining locally cached Home Panel data
+        by deleting the Home Panel folder within Windows Local AppData.
+        Authorization can also be revoked through
+        <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.
+      </p>
+
+      <h2>Security</h2>
+      <p>
+        Home Panel’s local server listens only on the device’s loopback address.
+        Users should protect their Windows account and physical access to the
+        device because locally stored dashboard information is available to that
+        Windows account.
+      </p>
+
+      <h2>Google API policy</h2>
+      <p>
+        Home Panel’s use of information received from Google APIs follows the
+        Google API Services User Data Policy, including its Limited Use
+        requirements.
+      </p>
+
+      <h2>This website</h2>
+      <p>
+        This informational website does not use cookies, analytics, advertising,
+        account registration, or tracking.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Privacy or support questions can be submitted through the
+        <a href="https://github.com/Frank-1123Frank/home-panel-info/issues">Home Panel support page</a>.
+      </p>
+
+      <h2>Changes</h2>
+      <p>
+        If Home Panel’s handling of Google user data changes, this policy will
+        be updated before the changed functionality is used.
+      </p>
+    </article>
+
+    <footer>Home Panel · Personal-use local software</footer>
+  </main>
+</body>
+</html>
